@@ -4,11 +4,11 @@ using namespace std;
 
 int f(long int x)
 {
-  cout << "prev : " << x << "\n";
+  // cout << "prev : " << x << "\n";
   x += 1;
   while (x % 10 == 0)
     x /= 10;
-  cout << "next : " << x << "\n";
+  // cout << "next : " << x << "\n";
   return x;
 }
 
