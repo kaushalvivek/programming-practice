@@ -20,8 +20,8 @@ int main()
       }
       else
       {
-        n--;
-        count++;
+        n -= n % k;
+        count += n % k;
       }
     }
     cout << count << "\n";
